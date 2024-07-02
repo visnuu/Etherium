@@ -1,19 +1,46 @@
-# Ethereum-Beg
-This is my first simple solidity program which consists of a contract and two functions to mint and burn tokens.
+HelloWorld Solidity Program
+This Solidity program is a simple "Hello World" program that demonstrates the basic syntax and functionality of the Solidity programming language. The purpose of this program is to serve as a starting point for those who are new to Solidity and want to get a feel for how it works.
 
-# Deatils
-This program is written in solidity, a programming language used for developing smart contracts on Ethereum blockchain.
-This program mainly focuses showcasing simple managing of tokens with two primary functions:-
-     * nwmint: used for minting new tokens and assigning them to specified addresses
-     * nwburn: used for burning tokens from a specified addresses if the address holds enough tokens
+Description
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that returns the string "Hello World!". This program serves as a simple and straightforward introduction to Solidity programming and can be used as a stepping stone for more complex projects in the future.
 
-# Execution
-To run this program, we used Remix, an online IDE.
-we create a new file and name it however we want and save it with .sol extension.
-copy paste the code from Eth-Beg file and click on compile from compiler tab
-go to deploy and deploy the contract and you will find the functions and values there as you have set it
-copy the address from any of the already given addresses from remix to use and assign some value to balance
-mint some tokens using the address
-after you minted the tokens now your burn them
-go to burn and use the same address as from mint and choose how much token to burn 
-*note: you can not burn more tokens than what you have in your balance
+Getting Started
+Executing Program
+To run this program, you can use Remix, an online Solidity IDE. Follow these steps:
+
+Go to the Remix website.
+
+Create a new file by clicking on the "+" icon in the left-hand sidebar.
+
+Save the file with a .sol extension (e.g., HelloWorld.sol).
+
+Copy and paste the following code into the file:
+
+solidity
+Copy code
+pragma solidity ^0.8.4;
+
+contract HelloWorld {
+    function sayHello() public pure returns (string memory) {
+        return "Hello World!";
+    }
+}
+Compile the code:
+
+Click on the "Solidity Compiler" tab in the left-hand sidebar.
+Ensure the "Compiler" option is set to "0.8.4" (or another compatible version).
+Click on the "Compile HelloWorld.sol" button.
+Deploy the contract:
+
+Click on the "Deploy & Run Transactions" tab in the left-hand sidebar.
+Select the "HelloWorld" contract from the dropdown menu.
+Click on the "Deploy" button.
+Interact with the contract:
+
+Click on the deployed "HelloWorld" contract in the left-hand sidebar.
+Click on the "sayHello" function.
+Click on the "transact" button to execute the function and retrieve the "Hello World!" message.
+Authors
+Metacrafter Chris - @metacraftersio
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
