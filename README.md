@@ -4,7 +4,7 @@ This Solidity program is a simple "Hello World" program that demonstrates the ba
 
 ## Description
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that returns the string "Hello World!". This program serves as a simple and straightforward introduction to Solidity programming and can be used as a stepping stone for more complex projects in the future.
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that returns the string "Hello World!". <br> This program serves as a simple and straightforward introduction to Solidity programming and can be used as a stepping stone for more complex projects in the future.
 
 ## Getting Started
 
